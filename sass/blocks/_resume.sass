@@ -1,0 +1,53 @@
+.resume
+    padding-top: 70px
+    &__title
+        position: relative
+        text-align: center
+        @include before_circle
+        &::before
+            top: -6px
+            left: 50%
+            transform: translateX(-50%)
+    &__subtitle
+        text-align: center
+    &__column-title
+        text-align: center
+    &__wrapper
+        margin-top: 60px
+    &__wrapper-items
+        margin: 0 auto
+        width: 850px
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        justify-content: space-between
+    &-sert-img
+        margin-top: 10px
+        width: 375px
+    &-item
+        margin-top: 45px
+        &-text
+            width: 375px
+            font-size: 12px
+            margin-top: 5px
+            &-sert
+                font-size: 14px
+                margin-top: 5px
+        &-head
+            width: 215px
+            display: flex
+            align-items: center
+            justify-content: space-between
+            &-img
+                position: relative
+                padding: 15px 0 0 15px
+                @include before_circle
+                &:before
+                    top: 0
+            &-title
+                a
+                    text-decoration: none
+                    font-weight: bold
+                    color: #000
+                    &:hover
+                        text-decoration: underline

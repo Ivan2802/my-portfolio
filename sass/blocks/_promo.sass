@@ -1,0 +1,29 @@
+.promo
+    position: relative
+    min-height: 100vh // Первая секция занимает всю высоту экрана пользователя
+    background: url('../img/main_bg_light.png') center center/cover no-repeat
+    overflow-x: hidden
+    // background: url('https://www.notik.ru/content/img/1590125432_01-laptop-for-coding.jpg') center center/cover no-repeat
+    &__wrapper
+        padding-top: 205px
+    &__title
+        width: 535px
+        margin-top: 10px
+    &__subtitle
+        position: relative
+        padding-left: 10px
+        z-index: 2
+        @include before_circle
+    &__buttons
+        display: flex
+        margin-top: 25px
+        width: 250px
+        align-items: center
+        justify-content: space-between
+    &__link
+        color: #000
+        text-decoration: none
+        font-weight: bold
+        &:hover
+            color: #000
+            text-decoration: none
