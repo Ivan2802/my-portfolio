@@ -1,3 +1,7 @@
+:root {
+  --color: #ffa501;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -92,7 +96,7 @@
 }
 
 .btn {
-  background: #ffa501;
+  background: var(--color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 12px 25px;
 }
@@ -698,6 +702,7 @@
   width: 100%;
   resize: none;
   font-size: 12px;
+  padding: 10px;
 }
 .contacts__btn {
   border: none;
